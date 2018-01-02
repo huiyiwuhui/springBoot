@@ -1,0 +1,13 @@
+spring:
+  profiles:
+  datasource:
+    name: mydb
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:oracle:thin:@172.16.60.61:1521:tads
+    username: yhapp1
+    password: yhapp1
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+mybatis:
+  mapperLocations: classpath*:mapper/*.xml
+  typeAliasesPackage: com.wangxin.entity

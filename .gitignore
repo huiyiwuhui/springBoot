@@ -1,0 +1,35 @@
+# built application files
+*.apk
+*.ap_
+*remote.xml
+*rebel.xml
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# IDEA project files
+*.iml
+.idea/
+springBoot1/target/
+springBoot2/target/
+springBoot3/target/
+
+# others
+ant.properties
+build.xml
+META-INF
+
+
