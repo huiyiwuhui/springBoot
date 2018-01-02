@@ -4,6 +4,8 @@ import com.wangxin.dao.appdao.ActivityDao;
 import com.wangxin.dao.weixindao.WXUserDao;
 import com.wangxin.entity.Activity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -42,4 +44,14 @@ public class TestController {
         return integer;
     }
 
+    @GetMapping("/get")
+    public Object get() {
+        Integer integer = wxUserDao.checkWXUser("111111111");
+        return integer;
+    }
+    @PostMapping("/post")
+    public Object post() {
+        Integer integer = wxUserDao.checkWXUser("111111111");
+        return integer;
+    }
 }
