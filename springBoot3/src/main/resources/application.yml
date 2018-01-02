@@ -1,0 +1,18 @@
+spring:
+  profiles:
+
+app:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:oracle:thin:@172.16.60.61:1521:tads
+    username: yhapp1
+    password: yhapp1
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+weixin:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:oracle:thin:@172.16.4.30:1521:devdb
+    username: yhwx
+    password: yhwx
+    driver-class-name: oracle.jdbc.driver.OracleDriver
