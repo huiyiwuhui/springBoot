@@ -27,6 +27,9 @@ springBoot1/target/
 springBoot2/target/
 springBoot3/target/
 springBoot4/target/
+springBoot5/target/
+springBoot6/target/
+springBoot7/target/
 # others
 ant.properties
 build.xml
